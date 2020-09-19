@@ -79,6 +79,7 @@ font-family: 'Noto Sans TC', sans-serif;
 }
 
 .main {
+    
 }
 
 .main__news  {
@@ -125,7 +126,7 @@ font-family: 'Noto Sans TC', sans-serif;
 }
 .open p{
     height:fit-content ;
-    background-color: teal;
+  
 }
 
 .news>img {
@@ -137,3 +138,4 @@ font-family: 'Noto Sans TC', sans-serif;
 .footer {
 
 }
+

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+body{
+   margin: 0;
+   padding: 0;
+   background-color: yellowgreen;
+    
+}
+
+
+.header {
+    background: url('/static/background1.jpg') ;
+    width: 100vmax;
+    height:800px;
+    background-size: cover;
+    
+}
+
+.container {
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+    
+}
+
+.header__logo {
+    width: 120px;
+    height:120px;
+}
+
+.header__menu {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+  width: 1000px;
+}
+
+
+.header__menu a{
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Russo One', sans-serif;
+
+}
+
+
+.header__title {
+    font-size: 35px;
+    color: cornsilk;
+    padding-top: 100px;
+}
+.main {
+
+}
+.main__title {
+    border-bottom: 1px solid black ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main__news {
+    display: flex;
+}
+.news {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 32%;
+}
+.news__title {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 5px;
+    
+}
+.news__text {
+}
