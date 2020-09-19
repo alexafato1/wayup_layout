@@ -4,3 +4,10 @@
       item.parentElement.classList.toggle('open')
     })
 
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("open");
+  }
+  
+
+
+  

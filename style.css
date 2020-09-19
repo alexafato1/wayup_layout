@@ -25,6 +25,30 @@ a{
     max-width: 1700px;
     margin: 0 auto;
 }
+button{
+  background-color:lightskyblue;
+  margin-right: 40px;
+ font-size: 34px;
+  display: none;
+  border: 2px solid lightskyblue;
+  border-radius: 10%;
+  position: relative;
+}
+
+.myDropdown {
+    display: none;
+
+}
+
+
+.open {
+    position: absolute;
+    background-color: #f1f1f1;
+    display: block;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    left:200px
+}
 
 .header__nav{
  color: lightblue;    
@@ -224,11 +248,12 @@ a{
 .news {
    
     flex: 1 1 90%;
-   
+    margin: 0 auto;
     
 }
 .header__title{
-    font-size: 30px;
+    font-size: 25px;
+    
 }
 
 .header__title img{
@@ -247,8 +272,48 @@ a{
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {}
 
+
+
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (max-width: 992px) {
+
+ .container{width: 100%;}
+ .main__news  {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__menu{
+    display: none;
+}
+button{
+    
+    display: block;
+    border: none;
+    
+
+}
+.header__logo {
+    margin-left: 30px;
+  
+}
+
+.news {
+   
+    flex: 1 1 ;
+    margin: 0 auto;
+    
+}
+.header__title{
+    font-size: 25px;
+    
+}
+
+.header__title img{
+    
+    left: 560px
+ }
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {}
