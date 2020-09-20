@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+body{
+   margin: 0;
+   padding: 0;
+   background-color: yellowgreen;
+    
+}
+
+
+.header {
+    background: url('/static/background1.jpg') ;
+    width: 100vmax;
+    height:800px;
+    background-size: cover;
+    
+}
+
+.container {
+    width: 1700px;
+    margin: 0 auto;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+    
+}
+
+.header__logo {
+    width: 120px;
+    height:120px;
+}
+
+.header__menu {
+  display: flex;
+  list-style: none;
+  align-items: center;
+ 
+ 
+}
+
+
+.header__menu a{
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Russo One', sans-serif;
+
+}
+
+
+.header__title {
+    font-size: 35px;
+    color: cornsilk;
+    padding-top: 100px;
+}
+
+.button{
+    display: none;
+    margin: 30px;
+}
+
+.open{
+    background-color: tomato;
+    color:dark;
+}
+
+.main {
+
+}
+.main__title {
+    border-bottom: 1px solid black ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main__news {
+    display: flex;
+    flex-wrap: wrap;
+}
+.news {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 ;
+    max-width: 560px;
+}
+.news__title {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 5px;
+    
+}
+.news__text {
+}
+
+.footer {
+    background-color: black;
+    margin-top: 20px;
+}
+.container {
+}
+
+.footer__nav {
+   
+    
+}
+
+.footer__nav  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__logo {
+    width: 50px;
+    height:50px;
+  
+}
+.footer__item{
+    width: 50px;
+    height:50px;
+    border: 2px solid lightblue;
+    display: block;
+    border-radius: 100% ;
+    margin: 20px;
+}
+.footer__menu {
+    display: flex;
+}
+
+.insta{
+    width: 50px;
+    height:50px;
+ 
+    display: block;
+ 
+    background: url('/static/insta.svg') center center no-repeat;
+}
+.vk{
+    width: 50px;
+    height:50px;
+ 
+    display: block;
+ 
+    background: url('/static/vk.svg') center center no-repeat;
+}
+.youtube{
+    width: 50px;
+    height:50px;
+ 
+    display: block;
+ 
+    background: url('/static/youTube.svg') center center no-repeat;
+}
+
+.fb{
+    width: 50px;
+    height:50px;
+ 
+    display: block;
+ 
+    background: url('/static/fb.svg') center center no-repeat;
+}
+
+@media screen and (max-width: 1700px) {
+    .container{
+        width: 900px;
+    }
+
+    .news{
+        margin: 0 auto;
+    }
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .container{
+        width: 100%;
+    }
+    .header__title{
+        font-size: 30px;
+        margin: 0 auto;
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    /*.header__menu{
+       padding-right: 10px;
+       padding-left: 0;
+       margin-left: 0;
+    }*/
+    .header__menu{
+        display: none;
+    }
+
+    .button{
+        display: block;
+        padding: 30px;
+        font-size: 50px;
+       
+        color: skyblue;
+        border: none;
+    }
+    .header{
+        max-width: 992px;
+    }
+    .header__logo{
+        padding: 30px;
+    }
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  
+}
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
